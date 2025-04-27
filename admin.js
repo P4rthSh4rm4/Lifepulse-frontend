@@ -5,7 +5,7 @@ if (!localStorage.getItem('adminToken')) {
 
 async function fetchSOSAlerts() {
     try {
-      const response = await fetch('http://localhost:5000/api/sos');
+      const response = await fetch('https://lifepulse-backend-3.onrender.com');
       const data = await response.json();
   
       const tableBody = document.querySelector('#sosTable tbody');
