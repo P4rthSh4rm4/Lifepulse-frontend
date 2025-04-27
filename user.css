@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding-top: 50px;
+  }
+  
+  h1 {
+    color: red;
+  }
+  
+  textarea {
+    font-size: 16px;
+    padding: 10px;
+  }
+  
+  button {
+    font-size: 24px;
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkred;
+  }
+  
+  #status {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  #logo-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #logo {
+    width: 120px; /* or any size you want */
+    height: auto;
+  }
+  
