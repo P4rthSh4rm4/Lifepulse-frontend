@@ -91,4 +91,6 @@ function resolveAlert(alertId) {
 function logout() {
   localStorage.removeItem('adminToken');
   window.location.href = 'admin-login.html';
+  fetch(`${process.env.https://lifepulse-backend-3.onrender.com/}/api/data`)
+
 }
